@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include upskill *.css
+recursive-include upskill *.csv
+recursive-include upskill *.html
+recursive-include upskill *.ico
+recursive-include upskill *.js
+recursive-include upskill *.json
+recursive-include upskill *.md
+recursive-include upskill *.png
+recursive-include upskill *.py
+recursive-include upskill *.svg
+recursive-include upskill *.txt
+recursive-exclude upskill *.pyc
